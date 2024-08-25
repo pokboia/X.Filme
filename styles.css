@@ -1,0 +1,68 @@
+
+
+body {
+    color: rgb(39, 17, 82);
+    background: black;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+/* código omitido */
+
+header {
+    border-bottom: solid 2px rgb(0, 146, 73);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(0, 151, 126);
+}
+
+
+
+.chamada {
+    background: rgb(119, 6, 240);
+    padding-bottom: 32px;
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin: 1%;
+
+}
+
+p {
+   font-size: 30; 
+}
+
+
+h1 { 
+    font-size: 40px;
+}
+
+
+/* código omitido */
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria h2 {
+    color: rgb(76, 55, 116);
+}
